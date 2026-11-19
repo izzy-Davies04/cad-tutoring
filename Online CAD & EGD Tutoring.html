@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Online CAD &amp; EGD Tutoring</title>
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--text:#1c1b19;--muted:#6a675f;--accent:#0f6e56;--accent-t:#e1f5ee;--on:#fff;--line:#e3e0d8;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171715;--card:#222220;--text:#efede6;--muted:#a09d93;--accent:#5dcaa5;--accent-t:#12332a;--on:#0b1f18;--line:#34332f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171715;--card:#222220;--text:#efede6;--muted:#a09d93;--accent:#5dcaa5;--accent-t:#12332a;--on:#0b1f18;--line:#34332f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:820px;margin:0 auto;padding:0 16px 48px}
+.hero{padding:44px 0 28px}
+.tag{display:inline-block;font-size:.8rem;padding:3px 10px;border-radius:99px;background:var(--accent-t);color:var(--accent);font-weight:600}
+h1{font-size:2.1rem;line-height:1.2;margin:12px 0 10px}
+h2{font-size:1.35rem;margin:36px 0 12px}
+h3{margin:0 0 4px;font-size:1.05rem}
+p{margin:0 0 10px}.muted{color:var(--muted)}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;background:var(--accent);color:var(--on);text-decoration:none;font-weight:700}
+.btn.alt{background:transparent;color:var(--accent);border:1.5px solid var(--accent);margin-left:8px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.price{font-size:1.5rem;font-weight:700;color:var(--accent);margin:4px 0}
+.card.best{border:2px solid var(--accent)}
+.step{display:flex;gap:12px;margin-bottom:12px}
+.num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--on);display:flex;align-items:center;justify-content:center;font-weight:700}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:8px}
+summary{cursor:pointer;font-weight:600}
+.cta{background:var(--accent-t);border-radius:14px;padding:28px 20px;text-align:center;margin-top:36px}
+.ads{margin-top:36px}
+.ad{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;border-radius:14px;padding:18px 20px;margin-bottom:12px;background:var(--accent);color:var(--on)}
+.ad.alt{background:var(--card);color:var(--text);border:2px solid var(--accent)}
+.ad h3{margin:0 0 2px;font-size:1.15rem}
+.ad p{margin:0;opacity:.9}
+.ad .btn{background:var(--on);color:var(--accent)}
+.ad.alt .btn{background:var(--accent);color:var(--on)}
+.adlabel{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;opacity:.75;margin-bottom:4px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<span class="tag">Online · One-on-one · Beginner friendly</span>
+<h1>Learn CAD and EGD from someone who has been in your seat</h1>
+<p class="muted">Live online lessons in Fusion, Inventor, Onshape and FreeCAD. Built for Grade 10 to 12 EGD learners, beginners and anyone who wants to design real things.</p>
+<p><a class="btn" id="cta1" href="#contact">Book a trial lesson</a><a class="btn alt" href="#pricing">See prices</a></p>
+</section>
+
+<h2>What I teach</h2>
+<div class="grid">
+<div class="card"><h3>Autodesk Fusion</h3><p class="muted">Modeling, assemblies and drawings for school projects and 3D printing.</p></div>
+<div class="card"><h3>Autodesk Inventor</h3><p class="muted">Parts, assemblies and technical drawings the way engineering courses expect.</p></div>
+<div class="card"><h3>Onshape</h3><p class="muted">Free, browser-based CAD you can use on almost any computer.</p></div>
+<div class="card"><h3>FreeCAD</h3><p class="muted">Free open-source modeling with no licence worries.</p></div>
+</div>
+
+<h2>Who it’s for</h2>
+<div class="card">
+<p>• EGD learners who want help with PAT projects, drawings and exam-style practice</p>
+<p>• Beginners who have never opened a CAD program</p>
+<p>• Hobbyists who want to design parts for 3D printing</p>
+<p style="margin:0">• Students heading into engineering, architecture or design</p>
+</div>
+
+<h2>How it works</h2>
+<div class="step"><div class="num">1</div><div><b>Message me</b><br><span class="muted">Tell me your level, your software and what you need help with.</span></div></div>
+<div class="step"><div class="num">2</div><div><b>Trial lesson</b><br><span class="muted">We try one short lesson on a real task so you can see if it suits you.</span></div></div>
+<div class="step"><div class="num">3</div><div><b>Learn by building</b><br><span class="muted">Regular live sessions on Zoom or Google Meet, with screen sharing and practice tasks in between.</span></div></div>
+
+<h2 id="pricing">Prices</h2>
+<div class="grid">
+<div class="card"><h3>Trial lesson</h3><div class="price" data-price="trial">R___</div><p class="muted">30 minutes. Meet, assess your level and start on a first task.</p></div>
+<div class="card"><h3>Single lesson</h3><div class="price" data-price="single">R___</div><p class="muted">60 minutes, one-on-one, any software I teach.</p></div>
+<div class="card best"><h3>Pack of 5</h3><div class="price" data-price="pack">R___</div><p class="muted">Five 60-minute lessons at a discount. Best for exam or project prep.</p></div>
+</div>
+
+<h2>About me</h2>
+<div class="card">
+<p>I studied Engineering Graphics and Design in high school and I’m confident in CAD. I use Fusion, Inventor, Onshape and FreeCAD, and I teach in a patient, step-by-step way: I show you one skill, you try it, and we fix mistakes together.</p>
+<p class="muted" style="margin:0">Lessons are online, so you can join from anywhere in South Africa.</p>
+</div>
+
+<h2>Questions</h2>
+<details><summary>Do I need to buy software?</summary><p class="muted" style="margin-top:8px">Not necessarily. Onshape and FreeCAD are free, and Autodesk offers free options for students and personal use. Check the current terms for your situation.</p></details>
+<details><summary>What do I need for lessons?</summary><p class="muted" style="margin-top:8px">A laptop or PC that can run your chosen software, a stable internet connection, and Zoom or Google Meet.</p></details>
+<details><summary>Can you help with my PAT or school project?</summary><p class="muted" style="margin-top:8px">Yes. I’ll teach you the skills and guide you, but the work you hand in should be your own.</p></details>
+<details><summary>How do I pay?</summary><p class="muted" style="margin-top:8px">We’ll agree on payment before your first paid lesson. Message me to arrange it.</p></details>
+
+<section class="cta" id="contact">
+<h2 style="margin-top:0">Ready to start?</h2>
+<p class="muted">Send me a quick message with your grade or level and the software you use.</p>
+<a class="btn" id="cta2" href="#contact">Message me on WhatsApp</a>
+</section>
+<section class="card" id="sp" style="display:none;margin-top:36px;text-align:center">
+<h3>Find Ipfi on Superprof</h3>
+<p class="muted">See my profile, lesson details and student reviews.</p>
+<a class="btn" id="splink" href="#" target="_blank" rel="noopener">View my Superprof profile</a>
+</section>
+<footer>© <span id="yr"></span> · Online CAD &amp; EGD Tutoring</footer>
+</main>
+<script>
+/* EDIT THESE: WhatsApp number in international format without + (e.g. 27XXXXXXXXX), and your prices in Rand. */
+var CONFIG={whatsapp:"27763144632",superprof:"https://www.superprof.co.za/ir/41838211-d1979d",trial:"Free",single:"R350",pack:"R1,650"};
+(function(){
+  document.getElementById("yr").textContent=new Date().getFullYear();
+  var msg=encodeURIComponent("Hi, I’m interested in a CAD/EGD trial lesson. My level is ___ and I use ___.");
+  if(CONFIG.superprof){document.getElementById("splink").href=CONFIG.superprof;document.getElementById("sp").style.display="block"}
+  if(CONFIG.whatsapp){
+    var u="https://wa.me/"+CONFIG.whatsapp+"?text="+msg;
+    ["cta1","cta2"].forEach(function(id){var a=document.getElementById(id);a.href=u;a.target="_blank";a.rel="noopener"});
+  }
+  ["trial","single","pack"].forEach(function(k){
+    if(CONFIG[k]){document.querySelector('[data-price="'+k+'"]').textContent=CONFIG[k]}
+  });
+})();
+</script>
+</body>
+</html>
